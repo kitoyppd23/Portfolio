@@ -2,6 +2,8 @@
     body {
         background-color: #F5EDE0;
         font-family: 'Open Sans Condensed', sans-serif;
+        margin: 35px;
+        padding: 35px;
     }
     
     .font {
@@ -12,9 +14,23 @@
         font-family: monospace;
         font-weight: bold;
         font-size: 15px;
+        padding: 35px;
+        margin: 35px;
     }
     
     p {
         font-size: 20px;
     }
     
+    .name {
+        text-align: center;
+    }
+
+    #img-caue {
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+        padding: 10px;
+    }
