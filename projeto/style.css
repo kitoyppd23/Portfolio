@@ -1,0 +1,73 @@
+body {
+    background-color:rgb(253 , 251 , 251);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    
+}
+#cabecalho {
+    background-color: #6A6D4A;
+    color: black;
+    border-bottom: black;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    min-height: 15%;
+    
+}
+#minha_foto {
+    z-index: 2;
+    position: fixed;
+    border-radius: 50%;
+    margin: 20px 20px;
+    border: 4px solid lavender  ;
+    width: 13%;
+
+    
+
+}
+main {
+    background-color: #F5EDE0;
+    padding-top: 270px;
+    
+}
+
+#titulo {
+    font-size: 45px;
+}
+
+section {
+    display: inline-block;
+    
+}
+p {
+    line-height: 35px;
+    
+
+    width: 30%;
+}
+.lado-esquerdo {
+    float: left;
+    margin-left: 150px;
+    text-align: justify;
+}
+.lado-direito {
+    float: right;
+    position: absolute;
+    right: 3px;
+    margin-right: 50px;
+    text-align: justify;
+    width: 40%;
+}
+#secao {
+    width: 100%;
+}
+#section2 {
+    background-color: #B9BB9E;
+}
+#linha1 {
+    margin: 0px auto;
+
+}
