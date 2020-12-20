@@ -2,7 +2,7 @@ body {
     background-color:rgb(253 , 251 , 251);
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 23px;
-    
+
 }
 #cabecalho {
     background-color: #6A6D4A;
@@ -15,7 +15,7 @@ body {
     z-index: 1;
     text-align: center;
     min-height: 15%;
-    
+
 }
 #minha_foto {
     z-index: 2;
@@ -25,13 +25,13 @@ body {
     border: 4px solid lavender  ;
     width: 13%;
 
-    
+
 
 }
 main {
     background-color: #F5EDE0;
     padding-top: 270px;
-    
+
 }
 
 #titulo {
@@ -40,11 +40,11 @@ main {
 
 section {
     display: inline-block;
-    
+
 }
 p {
     line-height: 35px;
-    
+
 
     width: 30%;
 }
@@ -68,6 +68,43 @@ p {
     background-color: #B9BB9E;
 }
 #linha1 {
-    margin: 0px auto;
+  margin: 0px auto;
 
+}
+#linha2 {
+  margin: 0px auto;
+
+}
+
+.flex {
+	display: flex;
+}
+.container {
+	max-width: 50%;
+  margin: 0 auto;
+
+
+}
+.item {
+	margin: 5px;
+  text-align: center;
+	font-size: 1.5em;
+}
+li {
+  list-style-type: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
