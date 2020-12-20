@@ -1,0 +1,36 @@
+
+.color {
+    padding: 20px;
+    border: black solid 1px;
+    display: inline-block;
+}
+.pixel {
+    padding: 10px;
+    border: black solid 1px;
+    background-color: white;
+    width: 3px;
+    height: 3px;
+}
+
+#pixel-board {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linesPixel {
+    display: table-row;
+}
+
+.pixel {
+    display: table-cell
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #016795;
+
+  }
+body{
+  background: #FFFFFF url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_960_720.png");
+}
