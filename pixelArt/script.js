@@ -47,6 +47,7 @@ function changeBlocks(eventoOne) {
 }
 
 allPixel.addEventListener('dragenter', changeBlocks)
+allPixel.addEventListener('touchmove', changeBlocks)
 
 let acessClearButton = document.querySelector('#clear-board');
 
