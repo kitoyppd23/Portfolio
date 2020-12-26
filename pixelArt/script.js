@@ -45,7 +45,7 @@ function changeBlocks(eventoOne) {
     eventoOne.target.style.backgroundColor = getColorStyle;
 
 }
-
+allPixel.addEventListener('click', changeBlocks)
 allPixel.addEventListener('dragenter', changeBlocks)
 allPixel.addEventListener('touchstart', changeBlocks)
 
